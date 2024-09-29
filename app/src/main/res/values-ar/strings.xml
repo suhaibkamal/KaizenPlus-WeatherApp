@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="home">الرئيسية</string>
+    <string name="search">بحث</string>
+    <string name="daily">يوميًا</string>
+    <string name="settings">إعدادات</string>
+</resources>

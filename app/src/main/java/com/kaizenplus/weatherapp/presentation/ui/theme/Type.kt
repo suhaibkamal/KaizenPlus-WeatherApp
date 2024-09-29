@@ -1,4 +1,4 @@
-package com.kaizenplus.weatherapp.ui.theme
+package com.kaizenplus.weatherapp.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
