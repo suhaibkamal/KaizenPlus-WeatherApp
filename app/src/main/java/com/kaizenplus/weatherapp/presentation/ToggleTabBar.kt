@@ -49,7 +49,6 @@ fun ToggleTabBar(modifier: Modifier,
         mutableIntStateOf(defaultSelectedIndex)
     }
     Row(modifier = modifier
-        .padding(0.dp)
         .background(Color(0xFF252F39), shape = RoundedCornerShape(10.dp))) {
         items.forEachIndexed {
 
@@ -63,7 +62,7 @@ fun ToggleTabBar(modifier: Modifier,
                     selectedItemIndex = index
                     itemSelected(index,reselected)
                 }) {
-                Text(text = item)
+                Text(modifier = Modifier.padding(start = 10.dp, end = 10.dp),text = item)
             }
 
 
